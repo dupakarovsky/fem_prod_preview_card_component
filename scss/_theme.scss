@@ -1,0 +1,24 @@
+:root {
+   /* LIGHT MODE */
+   --brand-light: 158 36% 37%;
+   --surface-light: 30 38% 92%;
+
+   /* DARK MODE */
+   --brand-dark: 158 36% 37%;
+   --surface-dark: var(--gray-9-hsl);
+
+   /* COLOR MODE PREFERENCE: */
+   color-scheme: light;
+}
+@media only screen and (prefers-color-scheme: light) {
+   :root {
+      --brand: var(--brand-light);
+      --surface: var(--surface-light);
+   }
+}
+@media only screen and (prefers-color-scheme: dark) {
+   :root {
+      --brand: var(--brand-dark);
+      --surface: var(--surface-dark);
+   }
+}

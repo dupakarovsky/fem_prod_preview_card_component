@@ -1,0 +1,19 @@
+{
+  "name": "00-vite-css-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "postcss-jit-props": "^1.0.7",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "open-props": "^1.4.14",
+    "sass": "^1.54.8"
+  }
+}
